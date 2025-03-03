@@ -13,9 +13,10 @@ main .product_wrap .container .path_sequence .path span.active a {font-weight:50
 main .product_wrap .container .product_box {display:flex; justify-content:space-between;}
 main .product_wrap .container .product_box .photo {display:flex; height:632px;}
 main .product_wrap .container .product_box .photo .thumbnail {display:flex; flex-flow:column nowrap;}
-main .product_wrap .container .product_box .photo .thumbnail a {display:inline-block; width:115px; margin-bottom:20px;}
+main .product_wrap .container .product_box .photo .thumbnail a {overflow:hidden; display:inline-block; width:115px; margin-bottom:20px;}
 main .product_wrap .container .product_box .photo .thumbnail a:last-child {margin-bottom:0;}
-main .product_wrap .container .product_box .photo .thumbnail a img {height:100%;}
+main .product_wrap .container .product_box .photo .thumbnail a img {height:100%; transition:transform 0.4s;}
+main .product_wrap .container .product_box .photo .thumbnail a img:hover {transform:scale(1.1);}
 main .product_wrap .container .product_box .photo .thumbnail a.active {}
 main .product_wrap .container .product_box .photo .thumbnail a.active img {height:100%;}
 main .product_wrap .container .product_box .photo .big {width:632px; margin-left:25px;}
