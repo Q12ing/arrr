@@ -1,0 +1,268 @@
+header {position:fixed; top:0; left:0; z-index:900;}
+main {padding-top:120px;}
+main .main_bnr {}
+main .main_bnr .main_swiper {width:100%; height:600px;}
+main .main_bnr .main_swiper .swiper-pagination-bullet-active {background-color: #477a7b;}
+main .main_bnr .main_swiper .swiper-wrapper {}
+/* 메인 스와이퍼 슬라이드 공통 선택자 */
+main .main_bnr .main_swiper .swiper-slide {}
+main .main_bnr .main_swiper .swiper-slide a {display:inline-block; border-radius:20px; overflow:hidden;}
+main .main_bnr .main_swiper .swiper-slide a img {height:100%;}
+/* ★★★★★ 섹션 공통 선택자 ★★★★★ */
+main {}
+main .index_wrap {}
+main .index_wrap .container {max-width:1400px; margin:0 auto;}
+main .index_wrap .container .title_box {display:flex; justify-content:space-between; align-items:center; padding:10px 0; margin-bottom:30px;}
+main .index_wrap .container .title_box .titleL {}
+main .index_wrap .container .title_box .titleL p {font-weight:500; display:inline-block;}
+main .index_wrap .container .title_box .titleL .title {font-size:2rem; letter-spacing:-0.04em; margin-right:15px;}
+main .index_wrap .container .title_box .titleL .sub {font-size:0.94rem; letter-spacing:-0.02em; color:#aaa; display:inline-block;}
+main .index_wrap .container .title_box .more {position:relative; bottom:-10px;}
+main .index_wrap .container .title_box .more a {display:inline-block;}
+main .index_wrap .container .title_box .more a img {width:100%;}
+/* ★★★★★ 섹션 공통 선택자 끝 ★★★★★ */
+/* =======================================================1열 Best item */
+main .best_item_wrap {padding-top:120px; margin-bottom:150px;}
+main .best_item_wrap .title_box_bg {border-bottom:1px solid #ddd; margin-bottom:30px;}
+main .best_item_wrap .title_box_bg .title_box {
+    max-width:1400px; margin:0 auto; padding-bottom:15px;
+    display:flex; justify-content:space-between; align-items:center;
+}
+main .best_item_wrap .title_box_bg .title_box .titleL {}
+main .best_item_wrap .title_box_bg .title_box .titleL p {font-weight:500; display:inline-block;}
+main .best_item_wrap .title_box_bg .title_box .titleL .title {font-size:2rem; letter-spacing:-0.04em; margin-right:15px;}
+main .best_item_wrap .title_box_bg .title_box .titleL .sub {font-size:0.94rem; letter-spacing:-0.02em; color:#aaa;}
+main .best_item_wrap .title_box_bg .title_box .more {position:relative; bottom:-10px;}
+main .best_item_wrap .title_box_bg .title_box .more a {display:inline-block;}
+main .best_item_wrap .title_box_bg .title_box .more a img {width:100%;}
+main .best_item_wrap .container {max-width:1400px; margin:0 auto;}
+main .best_item_wrap .container .bi_wrap {display:flex; justify-content:space-between;}
+main .best_item_wrap .container .bi_wrap .bi_menu {width:145px;text-align:right;}
+main .best_item_wrap .container .bi_wrap .bi_menu li {padding-right:10px; height:45px;}
+main .best_item_wrap .container .bi_wrap .bi_menu li a {letter-spacing:-0.02em; color:#555; position:relative; top:15px;}
+main .best_item_wrap .container .bi_wrap .bi_menu .active a {font-size:1.25rem; font-weight:600; color:#232323; display:inline-block; top:13px;}
+main .best_item_wrap .container .bi_wrap .bi_menu .active a::after {
+    display:inline-block; content:''; width:100%; height:17px; background:rgba(70,163,197,0.2);
+    z-index:300; position:relative; bottom:12px; left:0; padding:0 2px;
+}
+main .best_item_wrap .container .bi_wrap .item_wrap {width:calc(1400px - 160px);}
+/* 상품 탭 공용 선택자 */
+main .best_item_wrap .container .bi_wrap .item_wrap .item {display:flex; flex-flow:row wrap; justify-content:space-between;}
+main .best_item_wrap .container .bi_wrap .item_wrap .item li {width:calc((100% - (20px * 3)) / 4); margin-bottom:20px;}
+main .best_item_wrap .container .bi_wrap .item_wrap .item li > a {display:block; height:265px; position:relative; border-radius:8px; overflow:hidden;}
+main .best_item_wrap .container .bi_wrap .item_wrap .item li > a img {height:100%}
+main .best_item_wrap .container .bi_wrap .item_wrap .item li > a .chip {
+    color:#fff; font-size:0.81rem; letter-spacing:-0.02em;
+    padding:6px 7px 4px; background:#ce2225; border-radius:3px;
+    position:absolute; top:13px; left:15px; z-index:100;
+}
+main .best_item_wrap .container .bi_wrap .item_wrap .item li .pdt_name {margin:15px 0 8px;}
+main .best_item_wrap .container .bi_wrap .item_wrap .item li .pdt_name a {display:inline-block; font-weight:500; letter-spacing:-0.02em;}
+main .best_item_wrap .container .bi_wrap .item_wrap .item li .pdt_info {}
+main .best_item_wrap .container .bi_wrap .item_wrap .item li .pdt_info > * {display:inline-block;}
+main .best_item_wrap .container .bi_wrap .item_wrap .item li .pdt_info .discount {margin-right:3px; color:#ce2225; font-size:0.875rem; font-weight:500; letter-spacing:-0.02em;}
+main .best_item_wrap .container .bi_wrap .item_wrap .item li .pdt_info .price {margin-right:3px; font-weight:600; letter-spacing:-0.02em;}
+main .best_item_wrap .container .bi_wrap .item_wrap .item li .pdt_info .price em {font-size:0.875rem; font-weight:500;}
+main .best_item_wrap .container .bi_wrap .item_wrap .item li .pdt_info .original_price {}
+main .best_item_wrap .container .bi_wrap .item_wrap .item li .pdt_info .original_price del {font-size:0.75rem; letter-spacing:-0.02em; color:#aaa;}
+/* 상품 탭 공용 선택자 끝 */
+main .best_item_wrap .container .bi_wrap .item_wrap .cushion {}
+main .best_item_wrap .container .bi_wrap .item_wrap .harness {display:none;}
+main .best_item_wrap .container .bi_wrap .item_wrap .food {display:none;}
+main .best_item_wrap .container .bi_wrap .item_wrap .bag {display:none;}
+main .best_item_wrap .container .bi_wrap .item_wrap .sand {display:none;}
+main .best_item_wrap .container .bi_wrap .item_wrap .pad {display:none;}
+/* =======================================================2열 brand story(Life with Arrr)  */
+main .brand_wrap {}
+main .brand_wrap .container {
+    max-width:100%; height:300px;
+    background-color:#413138;
+    background-image:url(../images/brand_story_bg.jpg);
+    background-position:center;
+    background-size:cover;
+    position:relative;
+}
+main .brand_wrap .container .brand_box {max-width:1100px; margin:0 auto; position:relative;}
+main .brand_wrap .container .brand_box .product {width:482px; height:379px; position:absolute; left:50px; top:-65px;}
+main .brand_wrap .container .brand_box .product img {width:100%;}
+main .brand_wrap .container .brand_box .txt_box {width:calc(100% - (482px + 120px)); float:right; margin-top:80px;}
+main .brand_wrap .container .brand_box .txt_box p {color:#fff;}
+main .brand_wrap .container .brand_box .txt_box .txt_t {font-size:2.625rem; line-height:1.3; letter-spacing:-0.04em; margin-bottom:25px;}
+main .brand_wrap .container .brand_box .txt_box .txt_t em {font-weight:700; color:#fff;}
+main .brand_wrap .container .brand_box .txt_box .txt_b {font-size:0.94rem; line-height:1.5; letter-spacing:-0.02em;}
+/* =======================================================3열 NEW item */
+main .new_item_wrap {margin:110px 0;}
+main .new_item_wrap .container {}
+main .new_item_wrap .container .title_box {}
+main .new_item_wrap .container .title_box .titleL {}
+main .new_item_wrap .container .title_box .titleL p {}
+main .new_item_wrap .container .title_box .titleL .title {}
+main .new_item_wrap .container .title_box .titleL .sub {}
+main .new_item_wrap .container .title_box .more {}
+main .new_item_wrap .container .title_box .more a {}
+main .new_item_wrap .container .title_box .more a img {}
+main .new_item_wrap .container .new_item_box {position:relative;}
+main .new_item_wrap .container .new_item_box .new_item {width:100%; height:100%;}
+main .new_item_wrap .container .new_item_box .new_item .swiper-wrapper{}
+main .new_item_wrap .container .new_item_box .new_item .swiper-wrapper .swiper-slide {}
+main .new_item_wrap .container .new_item_box .new_item .swiper-wrapper .swiper-slide > a {display:block;}
+main .new_item_wrap .container .new_item_box .new_item .swiper-wrapper .swiper-slide > a img {height:100%;}
+main .new_item_wrap .container .new_item_box .new_item .swiper-wrapper .swiper-slide > a .chip {
+    color:#fff; font-size:0.81rem; letter-spacing:-0.02em;
+    padding:6px 7px 4px; background:#ce2225; border-radius:3px;
+    position:absolute; top:13px; left:15px; z-index:100;
+}
+main .new_item_wrap .container .new_item_box .new_item .swiper-wrapper .swiper-slide .pdt_name {margin:15px 0 8px;}
+main .new_item_wrap .container .new_item_box .new_item .swiper-wrapper .swiper-slide .pdt_name a {font-weight:500; letter-spacing:-0.02em;}
+main .new_item_wrap .container .new_item_box .new_item .swiper-wrapper .swiper-slide .pdt_info {}
+main .new_item_wrap .container .new_item_box .new_item .swiper-wrapper .swiper-slide .pdt_info > * {display:inline-block;}
+main .new_item_wrap .container .new_item_box .new_item .swiper-wrapper .swiper-slide .pdt_info .discount {margin-right:3px; color:#ce2225; font-size:0.875rem; font-weight:500; letter-spacing:-0.02em;}
+main .new_item_wrap .container .new_item_box .new_item .swiper-wrapper .swiper-slide .pdt_info .price {margin-right:3px; font-weight:600; letter-spacing:-0.02em;}
+main .new_item_wrap .container .new_item_box .new_item .swiper-wrapper .swiper-slide .pdt_info .price em {font-size:0.875rem; font-weight:500;}
+main .new_item_wrap .container .new_item_box .new_item .swiper-wrapper .swiper-slide .pdt_info .original_price {}
+main .new_item_wrap .container .new_item_box .new_item .swiper-wrapper .swiper-slide .pdt_info .original_price del {font-size:0.75rem; letter-spacing:-0.02em; color:#aaa;}
+main .new_item_wrap .container .new_item_box .swiper-scrollbar {bottom:-60px; left:0;}
+main .new_item_wrap .container .new_item_box .swiper-scrollbar-drag {border-radius:10px; background:#477a7b;}
+/* =======================================================4열 line bnr1 (프리미엄 자연식) */
+main .bnr1_wrap {margin:200px 0 120px;}
+main .bnr1_wrap .container {max-width:100%; background:rgba(244,233,230,0.3); display:flex; align-items:center;}
+main .bnr1_wrap .container .img_box {}
+main .bnr1_wrap .container .img_box img {width:100%;}
+main .bnr1_wrap .container .txt_box {}
+main .bnr1_wrap .container .txt_box .txt {margin-left:70px;}
+main .bnr1_wrap .container .txt_box .txt .bnr_sub {font-size:0.875rem; font-weight:500;}
+main .bnr1_wrap .container .txt_box .txt .bnr_title {font-size:2.125rem; line-height:1.3; letter-spacing:-0.04em; margin:10px 0 30px;}
+main .bnr1_wrap .container .txt_box .txt .bnr_txt {font-size:0.875rem; line-height:1.5; letter-spacing:-0.03em;}
+/* =======================================================5열 MD Pick */
+main .md_pick_wrap {background:#fafafa;}
+main .md_pick_wrap .container {display:flex; justify-content:space-between;}
+main .md_pick_wrap .container .pick_img {width:500px; height:530px; border-radius:10px; overflow:hidden;}
+main .md_pick_wrap .container .pick_img img {width:100%;}
+main .md_pick_wrap .container .pick_box {width:calc(100% - 530px); position:relative;}
+main .md_pick_wrap .container .pick_box .pick_top {margin-bottom:40px;}
+main .md_pick_wrap .container .pick_box .pick_top .pick_title {font-size:2.625rem; line-height:1.3; letter-spacing:-0.04em; margin-bottom:20px;}
+main .md_pick_wrap .container .pick_box .pick_top .pick_title em {font-weight:700;}
+main .md_pick_wrap .container .pick_box .pick_top .pick_txt_btn {display:flex; justify-content:space-between;}
+main .md_pick_wrap .container .pick_box .pick_top .pick_txt_btn .pick_txt {font-size:0.94rem; line-height:1.5; letter-spacing:-0.02em;}
+main .md_pick_wrap .container .pick_box .pick_top .pick_txt_btn .pick_btn {}
+main .md_pick_wrap .container .pick_box .pick_top .pick_txt_btn .pick_btn button {}
+main .md_pick_wrap .container .pick_box .pick_top .pick_txt_btn .pick_btn .prev {margin-right:20px;}
+main .md_pick_wrap .container .pick_box .pick_top .pick_txt_btn .pick_btn .prev img {}
+main .md_pick_wrap .container .pick_box .pick_top .pick_txt_btn .pick_btn .next {}
+main .md_pick_wrap .container .pick_box .pick_top .pick_txt_btn .pick_btn .next img {}
+main .md_pick_wrap .container .pick_box .pick_top .pick_txt_btn .pick_btn .prev img,
+main .md_pick_wrap .container .pick_box .pick_top .pick_txt_btn .pick_btn .next img {width:100%; opacity:0.6;}
+main .md_pick_wrap .container .pick_box .pick_top .pick_txt_btn .pick_btn .prev img:hover,
+main .md_pick_wrap .container .pick_box .pick_top .pick_txt_btn .pick_btn .next img:hover {opacity:1;}
+main .md_pick_wrap .container .pick_box .md_swiper {width:100%; height:330px;}
+main .md_pick_wrap .container .pick_box .md_swiper .swiper-wrapper {}
+main .md_pick_wrap .container .pick_box .md_swiper .swiper-wrapper .swiper-slide {}
+main .md_pick_wrap .container .pick_box .md_swiper .swiper-wrapper .swiper-slide > a {display:block;}
+main .md_pick_wrap .container .pick_box .md_swiper .swiper-wrapper .swiper-slide > a img {height:100%;}
+main .md_pick_wrap .container .pick_box .md_swiper .swiper-wrapper .swiper-slide > a .chip {
+    color:#fff; font-size:0.81rem; letter-spacing:-0.02em;
+    padding:6px 7px 4px; background:#ce2225; border-radius:3px;
+    position:absolute; top:13px; left:15px; z-index:100;
+}
+main .md_pick_wrap .container .pick_box .md_swiper .swiper-wrapper .swiper-slide > .md_name {margin:15px 0 8px;}
+main .md_pick_wrap .container .pick_box .md_swiper .swiper-wrapper .swiper-slide > .md_name a {font-weight:500; letter-spacing:-0.02em;}
+main .md_pick_wrap .container .pick_box .md_swiper .swiper-wrapper .swiper-slide > .md_info {}
+main .md_pick_wrap .container .pick_box .md_swiper .swiper-wrapper .swiper-slide > .md_info > * {display:inline-block;}
+main .md_pick_wrap .container .pick_box .md_swiper .swiper-wrapper .swiper-slide > .md_info .discount {margin-right:3px; color:#ce2225; font-size:0.875rem; font-weight:500; letter-spacing:-0.02em;}
+main .md_pick_wrap .container .pick_box .md_swiper .swiper-wrapper .swiper-slide > .md_info .price {margin-right:3px; font-weight:600; letter-spacing:-0.02em;}
+main .md_pick_wrap .container .pick_box .md_swiper .swiper-wrapper .swiper-slide > .md_info .price em {font-size:0.875rem; font-weight:500;}
+main .md_pick_wrap .container .pick_box .md_swiper .swiper-wrapper .swiper-slide > .md_info .original_price {}
+main .md_pick_wrap .container .pick_box .md_swiper .swiper-wrapper .swiper-slide > .md_info .original_price del {font-size:0.75rem; letter-spacing:-0.02em; color:#aaa;}
+main .md_pick_wrap .container .pick_box .swiper-scrollbar {left:0; bottom:0;}
+main .md_pick_wrap .container .pick_box .swiper-scrollbar-drag {border-radius:10px; background:#477a7b;}
+/* =======================================================6열 mini bnr */
+main .mini_bnr_wrap {margin:120px 0;}
+main .mini_bnr_wrap .container {}
+main .mini_bnr_wrap .container {overflow:hidden;}
+/* 배너 공통 선택자 */
+main .mini_bnr_wrap .container div[class^=bnr] {
+    background-position:center;
+    background-size:cover;
+    width:calc((100% - 30px) / 2); height:330px; border-radius:15px;
+}
+main .mini_bnr_wrap .container div[class^=bnr] .txt_box {margin:80px 0 40px 50px;}
+main .mini_bnr_wrap .container div[class^=bnr] .txt_box > * {}
+main .mini_bnr_wrap .container div[class^=bnr] .txt_box .bnr_title {font-size:1.75rem; font-weight:700; letter-spacing:-0.02em; margin-bottom:15px;}
+main .mini_bnr_wrap .container div[class^=bnr] .txt_box .bnr_txt {font-size:0.94rem; line-height:1.5; letter-spacing:-0.02em;}
+main .mini_bnr_wrap .container div[class^=bnr] .txt_box a {position:relative; z-index:20; margin-top:40px; display:inline-block; padding:9px 15px; border-radius:5px;}
+main .mini_bnr_wrap .container div[class^=bnr] .txt_box a:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+    width:100%;
+    height:100%;
+    transform: scaleX(0);
+    transform-origin:left center;
+    transition: transform 0.3s ease-out;
+}
+main .mini_bnr_wrap .container div[class^=bnr] .txt_box a:hover:before {transform: scaleX(1);}
+main .mini_bnr_wrap .container div[class^=bnr] .txt_box a img {position:relative; top:3px;}
+/* 배너 공통 선택자 끝 */
+main .mini_bnr_wrap .container .bnr1 {
+    background-image:url(../images/bnr_001.jpg);
+    float:left;
+}
+main .mini_bnr_wrap .container .bnr1 .txt_box {}
+main .mini_bnr_wrap .container .bnr1 .txt_box > * {color:#fff;}
+main .mini_bnr_wrap .container .bnr1 .txt_box .bnr_title {}
+main .mini_bnr_wrap .container .bnr1 .txt_box .bnr_txt {}
+main .mini_bnr_wrap .container .bnr1 .txt_box a {border:1px solid #fff;}
+main .mini_bnr_wrap .container .bnr1 .txt_box a img {}
+main .mini_bnr_wrap .container .bnr2 {
+    background-image:url(../images/bnr_002.jpg);
+    float:right;
+}
+main .mini_bnr_wrap .container .bnr2 .txt_box {}
+main .mini_bnr_wrap .container .bnr2 .txt_box .bnr_title {}
+main .mini_bnr_wrap .container .bnr2 .txt_box .bnr_txt {}
+main .mini_bnr_wrap .container .bnr2 .txt_box a {border:1px solid #232323;}
+main .mini_bnr_wrap .container .bnr2 .txt_box a img {}
+/* =======================================================7열 Review */
+main .review_wrap {margin:120px 0;}
+main .review_wrap .container {}
+main .review_wrap .container .title_box {}
+main .review_wrap .container .title_box .titleL {}
+main .review_wrap .container .title_box .titleL .title {}
+main .review_wrap .container .title_box .titleL .sub {}
+main .review_wrap .container .title_box .more {}
+main .review_wrap .container .title_box .more a {}
+main .review_wrap .container .title_box .more a img {}
+main .review_wrap .container .review_box {display:flex; justify-content:space-between;}
+main .review_wrap .container .review_box li {width:calc((100% - 90px) / 4);}
+main .review_wrap .container .review_box li .review_img {margin-bottom:25px; display:inline-block;}
+main .review_wrap .container .review_box li .review_img img {width:100%;}
+main .review_wrap .container .review_box li .rv_user {font-size:0.875rem; letter-spacing:-0.04em;}
+main .review_wrap .container .review_box li .rv_user .rv_top {margin-bottom:15px; overflow:hidden;}
+main .review_wrap .container .review_box li .rv_user .rv_top .user_name {float:left;}
+main .review_wrap .container .review_box li .rv_user .rv_top .score {float:right;}
+main .review_wrap .container .review_box li .rv_user .rv_top .score img {}
+main .review_wrap .container .review_box li .rv_user .rv_txt {display:block; height:65px; margin-bottom:20px; font-size:0.875rem; line-height:1.5; letter-spacing:-0.03em;}
+main .review_wrap .container .review_box li .rv_item {display:flex; align-items:center; padding-top:20px; border-top:1px solid #d9d9d9;}
+main .review_wrap .container .review_box li .rv_item .item_thumb {}
+main .review_wrap .container .review_box li .rv_item .item_thumb img {}
+main .review_wrap .container .review_box li .rv_item .item_info {margin-left:8px;}
+main .review_wrap .container .review_box li .rv_item .item_info a {display:inline-block; margin-bottom:8px;}
+main .review_wrap .container .review_box li .rv_item .item_info .rv_price {}
+main .review_wrap .container .review_box li .rv_item .item_info a,
+main .review_wrap .container .review_box li .rv_item .item_info .rv_price {font-size:0.81rem; font-weight:500; letter-spacing:-0.04em;}
+/* =======================================================8열 line bnr2 (현명한 쇼핑방법! APP 다운로드) */
+main .bnr2_wrap {
+    background-image:url(../images/line_bnr_001.jpg);
+    background-position:center;
+    background-size:cover;
+    height:300px;
+}
+main .bnr2_wrap .container {padding-top:85px;}
+main .bnr2_wrap .container .content {}
+main .bnr2_wrap .container .content * {color:#fff;}
+main .bnr2_wrap .container .content .bnr_title {font-size:2.625rem; line-height:1.3; letter-spacing:-0.04em; margin-bottom:20px;}
+main .bnr2_wrap .container .content .bnr_title em {font-weight:600;}
+main .bnr2_wrap .container .content .bnr_txt {font-size:0.94rem; line-height:1.5; letter-spacing:-0.02em;}

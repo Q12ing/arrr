@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[런칭] 꿀잠 터널 패드 | arrr</title>
+            <!-- 파비콘 -->
+            <link rel="shortcut icon" href="./images/arrr_favicon.jpg" type="image/x-icon">
+            <link rel="icon" href="./image/arrr_favicon.jpg" type="image/x-icon">
+            <!--swiper-->
+            <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+            <!-- pretendard -->
+            <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css" />
+            <!-- design -->
+            <link rel="stylesheet" href="./styles/reset.css">
+            <link rel="stylesheet" href="./styles/common.css">
+            <link rel="stylesheet" href="./styles/detail.css">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script><!-- 제이쿼리 -->
+            <script src="./scripts/common.js" defer></script>
+            <script src="./scripts/detail.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container"><!-- 컨텐츠너비 w1400 -->
+            <div class="h_left">
+                <h1><a href="./index.html"><img src="./images/logo.png" alt="아르르"></a></h1>
+                <nav>
+                    <ul>
+                        <li class="active"><a href="./sub.html">Product</a></li>
+                        <li><a href="./sub.html">Best</a></li>
+                        <li><a href="./sub.html">Outlet</a></li>
+                        <li><a href="./sub.html">Sale</a></li>
+                        <li><a href="./sub.html">arrr life</a></li>
+                        <li><a href="./sub.html">Community</a></li>
+                    </ul>
+                    <!-- 메뉴 뎁스 들어 올 자리 -->
+                </nav>
+            </div>
+            <div class="h_right">
+                <a href="#"><img src="./images/h_search.png" alt=""></a>
+                <a href="#"><img src="./images/h_my_page.png" alt=""></a>
+                <a href="#"><img src="./images/h_cart.png" alt=""></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="product_wrap"><!-- 풀컨텐츠 -->
+            <div class="container"><!-- 컨텐츠너비 w1400 -->
+                <div class="path_sequence">
+                    <div class="path">
+                        <a href="./index.html"><img src="./images/home.png" alt=""></a>
+                        <span><a href="./images/">홈</a> ></span>
+                        <span><a href="./sub.html">Product</a> ></span>
+                        <span class="active"><a href="./sub.html">전체보기</a></span>
+                    </div>
+                </div>
+                <div class="product_box">
+                    <div class="photo">
+                        <div class="thumbnail">
+                            <a href="#" class="active"><img src="./images/s1.jpg" alt=""></a>
+                            <a href="#"><img src="./images/s2.jpg" alt=""></a>
+                            <a href="#"><img src="./images/s3.jpg" alt=""></a>
+                            <a href="#"><img src="./images/s4.jpg" alt=""></a>
+                            <a href="#"><img src="./images/s5.jpg" alt=""></a>
+                        </div>
+                        <div class="big">
+                            <img src="./images/b1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="product_contents">
+                        <div class="contentT">
+                            <p class="chip">NEW</p>
+                            <div class="score_review">
+                                <div class="score">
+                                    <img src="./images/star_small.png" alt="">
+                                    <img src="./images/star_small.png" alt="">
+                                    <img src="./images/star_small.png" alt="">
+                                    <img src="./images/star_small.png" alt="">
+                                    <img src="./images/star_small.png" alt="">
+                                </div>
+                                <a href="#" class="review">리뷰 (52개) <img src="./images/arrow_right.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="name_share">
+                            <h1 class="name">[런칭] 꿀잠 터널베드</h1>
+                            <a href="#" class="share"><img src="./images/share.png" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <span class="discount">30%</span>
+                            <span class="price">59,500원</span>
+                            <span class="original_price"><del>89,900원</del></span>
+                        </div>
+                        <dl>
+                            <dt>상품코드</dt>
+                            <dd>003752539</dd>
+                            <dt>배송안내</dt>
+                            <dd><em>3,000원</em> (50,000원 이상 무료)</dd>
+                        </dl>
+                        <div class="select_contents">
+                            <select name="capacity" id="capacity">
+                                <option value="">옵션을 선택해주세요. (필수)</option>
+                                <option value="blue">꿀잠 터널베드 파우더 블루</option>
+                                <option value="pink">꿀잠 터널베드 파우더 핑크</option>
+                            </select>
+                            <div class="op_container">
+                                <div class="c_blue">
+                                    <div class="name_close">
+                                        <p class="name">꿀잠 터널베드 파우더 블루</p>
+                                        <p class="close"><img src="./images/close.png" alt=""></p>
+                                    </div>
+                                    <div class="opnum">
+                                        <div class="num_box">
+                                            <button type="button" class="minusB"><img src="./images/num_minus.png" alt=""></button>
+                                            <input type="number" name="blue_num" id="blue_num" value="1">
+                                            <button type="button" class="plusB"><img src="./images/num_plus.png" alt=""></button>
+                                        </div>
+                                        <p class="op_blue">59,500</p>
+                                    </div>
+                                </div>
+                                <div class="c_pink">
+                                    <div class="name_close">
+                                        <p class="name">꿀잠 터널베드 파우더 핑크</p>
+                                        <p class="close"><img src="./images/close.png" alt=""></p>
+                                    </div>
+                                    <div class="opnum">
+                                        <div class="num_box">
+                                            <button type="button" class="minusP"><img src="./images/num_minus.png" alt=""></button>
+                                            <input type="number" name="pink_num" id="pink_num" value="1">
+                                            <button type="button" class="plusP"><img src="./images/num_plus.png" alt=""></button>
+                                        </div>
+                                        <p class="op_pink">59,500</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="order_price">
+                                <span>총금액</span>
+                                <span class="total_price">59,500원</span>
+                            </div>
+                            <div class="order_btn">
+                                <button type="button" id="present_btn">선물하기</button>
+                                <button type="button" id="cart_btn">장바구니</button>
+                                <button type="button" id="buy_btn">구매하기</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart_open_bg">
+            <div class="cart_container">
+                <p>장바구니에 담았습니다.</p>
+                <div class="link">
+                    <a href="#">쇼핑 계속하기</a>
+                    <a href="#">장바구니 가기</a>
+                </div>
+            </div>
+        </div>
+        <div class="page_tap">
+            <ul class="page_tapbar">
+                <li class="page_img active"><a href="#">상세정보</a></li>
+                <li class="page_review"><a href="#">상품후기</a></li>
+                <li class="page_buy"><a href="#">구매안내</a></li>
+                <li class="page_qna"><a href="#">상품문의</a></li>
+            </ul>
+        </div>
+        <div class="page_wrap"><!-- 전체너비 -->
+            <div class="img_container tabview"><!-- 뷰컨텐츠 w1100 -->
+                <div class="img_page">
+                    <div class="img_wrap">
+                        <img src="./images/page1.jpg" alt=""><!-- 상세페이지 나열될 곳 -->
+                        <img src="./images/page2.jpg" alt=""><!-- 상세페이지 나열될 곳 -->
+                    </div>
+                </div>
+            </div>
+            <div class="review_container tabview"><!-- 뷰컨텐츠 w1100 -->
+                <div class="score_box">
+                    <div class="page_title">
+                        <p class="title_main">REVIEW <em>(133)</em></p>
+                    </div>
+                    <div class="score">
+                        <div class="score_left">
+                            <p class="score_top"><img src="./images/star_big.png" alt=""> 4.9</p>
+                            <p class="score_txt">99%의 구매자가 이 상품을 좋아합니다.</p>
+                            <a href="#" class="posting_btn">상품 리뷰 작성하기</a>
+                        </div>
+                        <ul class="score_right">
+                            <li class="score5">
+                                <p class="impression">아주 좋아요</p>
+                                <div class="scorebar_bg">
+                                    <div class="scorebar_object"></div>
+                                </div>
+                                <p class="score_num">83,427</p>
+                            </li>
+                            <li class="score4">
+                                <p class="impression">맘에 들어요</p>
+                                <div class="scorebar_bg">
+                                    <div class="scorebar_object"></div>
+                                </div>
+                                <p class="score_num">12,575</p>
+                            </li>
+                            <li class="score3">
+                                <p class="impression">보통이에요</p>
+                                <div class="scorebar_bg">
+                                    <div class="scorebar_object"></div>
+                                </div>
+                                <p class="score_num">357</p>
+                            </li>
+                            <li class="score2">
+                                <p class="impression">그냥 그래요</p>
+                                <div class="scorebar_bg">
+                                    <div class="scorebar_object"></div>
+                                </div>
+                                <p class="score_num">57</p>
+                            </li>
+                            <li class="score1">
+                                <p class="impression">별로예요</p>
+                                <div class="scorebar_bg">
+                                    <div class="scorebar_object"></div>
+                                </div>
+                                <p class="score_num">38</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="photo_video_box">
+                    <div class="page_title">
+                        <p class="title_main">포토&동영상 <em>(25)</em></p>
+                        <p class="entire"><a href="#">전체보기 <img src="./images/arrow_right.png" alt=""></a></p>
+                    </div>
+                    <ul class="photo_video_preview">
+                        <li><a href="#"><img src="./images/photo_video_preview_001.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="./images/photo_video_preview_002.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="./images/photo_video_preview_003.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="./images/photo_video_preview_004.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="./images/photo_video_preview_005.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="./images/photo_video_preview_006.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="./images/photo_video_preview_007.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="./images/photo_video_preview_008.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="entire_review_box">
+                    <div class="page_title">
+                        <p class="title_main">전체리뷰 <em>(1,672)</em></p>
+                        <ul class="sequence">
+                            <li><a href="#">최신순</a></li>
+                            <li><a href="#">추천순</a></li>
+                            <li><a href="#">별점순</a></li>
+                        </ul>
+                    </div>
+                    <ul class="content">
+                        <li class="content1">
+                            <div class="user_telling">
+                                <div class="user_name_score">
+                                    <p class="nickname">닉네임</p>
+                                    <p class="user_score"><img src="./images/star_small.png" alt=""> 5.0</p>
+                                </div>
+                                <p class="product_option">옵션 : 레드</p>
+                                <p class="product_review_txt">배송이 빠르고 품질이 좋아서 마음에 쏙 들어요. 주변 사람들에게도 선물해주고 싶습니다.</p>
+                                <ul class="user_review_photo">
+                                    <li><a href="#"><img src="./images/d_review_001.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="./images/d_review_002.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="./images/d_review_003.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="./images/d_review_004.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="./images/d_review_005.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="./images/d_review_006.jpg" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="user_info">
+                                <p class="info_top"><span>네이버브랜드스토어 리뷰 작성자</span>님의 리뷰입니다.</p>
+                                <div class="date_up">
+                                    <p class="date">2025.01.21</p>
+                                    <button type="button"><img src="./images/up.png" alt="">1</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="content2">
+                            <div class="user_telling">
+                                <div class="user_name_score">
+                                    <p class="ninkname">닉네임</p>
+                                    <p class="user_score"><img src="./images/star_small.png" alt=""> 5.0</p>
+                                </div>
+                                <p class="product_option">옵션 : 레드</p>
+                                <p class="product_review_txt">배송이 빠르고 품질이 좋아서 마음에 쏙 들어요. 주변 사람들에게도 선물해주고 싶습니다.</p>
+                                <ul class="user_review_photo">
+                                    <li><a href="#"><img src="./images/d_review_006.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="./images/d_review_001.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="./images/d_review_002.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="./images/d_review_005.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="./images/d_review_003.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="./images/d_review_004.jpg" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="user_info">
+                                <p class="info_top"><span>네이버브랜드스토어 리뷰 작성자</span>님의 리뷰입니다.</p>
+                                <div class="date_up">
+                                    <p class="date">2025.01.21</p>
+                                    <button type="button"><img src="./images/up.png" alt="">1</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="content3">
+                            <div class="user_telling">
+                                <div class="user_name_score">
+                                    <p class="ninkname">닉네임</p>
+                                    <p class="user_score"><img src="./images/star_small.png" alt=""> 5.0</p>
+                                </div>
+                                <p class="product_option">옵션 : 레드</p>
+                                <p class="product_review_txt">배송이 빠르고 품질이 좋아서 마음에 쏙 들어요. 주변 사람들에게도 선물해주고 싶습니다.</p>
+                                <ul class="user_review_photo">
+                                    <li><a href="#"><img src="./images/d_review_001.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="./images/d_review_002.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="./images/d_review_003.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="./images/d_review_004.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="./images/d_review_005.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="./images/d_review_006.jpg" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="user_info">
+                                <p class="info_top"><span>네이버브랜드스토어 리뷰 작성자</span>님의 리뷰입니다.</p>
+                                <div class="date_up">
+                                    <p class="date">2025.01.21</p>
+                                    <button type="button"><img src="./images/up.png" alt="">1</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="content4">
+                            <div class="user_telling">
+                                <div class="user_name_score">
+                                    <p class="ninkname">닉네임</p>
+                                    <p class="user_score"><img src="./images/star_small.png" alt=""> 5.0</p>
+                                </div>
+                                <p class="product_option">옵션 : 레드</p>
+                                <p class="product_review_txt">배송이 빠르고 품질이 좋아서 마음에 쏙 들어요. 주변 사람들에게도 선물해주고 싶습니다.</p>
+                                <ul class="user_review_photo">
+                                    <li><a href="#"><img src="./images/d_review_006.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="./images/d_review_001.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="./images/d_review_002.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="./images/d_review_005.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="./images/d_review_003.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="./images/d_review_004.jpg" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="user_info">
+                                <p class="info_top"><span>네이버브랜드스토어 리뷰 작성자</span>님의 리뷰입니다.</p>
+                                <div class="date_up">
+                                    <p class="date">2025.01.21</p>
+                                    <button type="button"><img src="./images/up.png" alt="">1</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="pagenation">
+                        <div class="pagenation_box">
+                            <button type="button" class="page_first"><img src="./images/btn_page_first.gif" alt=""></button>
+                            <button type="button" class="page_prev"><img src="./images/btn_page_prev.gif" alt=""></button>
+                            <a href="#" class="active">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#">5</a>
+                            <a href="#">6</a>
+                            <a href="#">7</a>
+                            <a href="#">8</a>
+                            <a href="#">9</a>
+                            <button type="button" class="page_next"><img src="./images/btn_page_next.gif" alt=""></button>
+                            <button type="button" class="page_last"><img src="./images/btn_page_last.gif" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="buy_container tabview"><!-- 뷰컨텐츠 w1100 -->
+                <div class="page_title">
+                    <p class="title_main">구매안내</p>
+                </div>
+                <div class="img_wrap">
+                    <img src="./images/buy_page.png" alt="">
+                </div>
+            </div>
+            <div class="qna_container tabview"><!-- 뷰컨텐츠 w1100 -->
+                <div class="page_title">
+                    <p class="title_main">상품문의 <em>(25)</em></p>
+                    <a href="#" class="qna_btn">문의등록하기</a>
+                </div>
+                <ul class="qna_box">
+                    <li class="qna1">
+                        <div class="state_rock_title">
+                            <p class="state">답변대기</p>
+                            <div class="rock_title">
+                                <p class="rock"><img src="./images/rock.png" alt=""></p>
+                                <a href="#"><p class="title">쿠팡에 입점되어 있는 거 맞나요?</p></a>
+                            </div>
+                        </div>
+                        <div class="id_date">
+                            <p class="user_id">2306*****</p>
+                            <p class="date">2025.01.06</p>
+                        </div>
+                    </li>
+                    <li class="qna2">
+                        <div class="state_rock_title">
+                            <p class="state complet">답변완료</p>
+                            <div class="rock_title">
+                                <p class="rock"><img src="./images/rock.png" alt=""></p>
+                                <a href="#"><p class="title">제품 배송일이 궁금합니다.</p></a>
+                            </div>
+                        </div>
+                        <div class="id_date">
+                            <p class="id">2306*****</p>
+                            <p class="date">2025.01.06</p>
+                        </div>
+                    </li>
+                    <li class="qna3">
+                        <div class="state_rock_title">
+                            <p class="state complet">답변완료</p>
+                            <div class="rock_title">
+                                <p class="rock"><img src="./images/rock.png" alt=""></p>
+                                <a href="#"><p class="title">문의</p></a>
+                            </div>
+                        </div>
+                        <div class="id_date">
+                            <p class="id">2306*****</p>
+                            <p class="date">2025.01.06</p>
+                        </div>
+                    </li>
+                    <li class="qna4">
+                        <div class="state_rock_title">
+                            <p class="state complet">답변완료</p>
+                            <div class="rock_title">
+                                <p class="rock"><img src="./images/rock.png" alt=""></p>
+                                <a href="#"><p class="title">상품문의</p></a>
+                            </div>
+                        </div>
+                        <div class="id_date">
+                            <p class="id">2306*****</p>
+                            <p class="date">2025.01.06</p>
+                        </div>
+                    </li>
+                    <li class="qna5">
+                        <div class="state_rock_title">
+                            <p class="state complet">답변완료</p>
+                            <div class="rock_title">
+                                <p class="rock"><img src="./images/rock.png" alt=""></p>
+                                <a href="#"><p class="title">사이즈가 혹시 변경되었나요?</p></a>
+                            </div>
+                        </div>
+                        <div class="id_date">
+                            <p class="id">2306*****</p>
+                            <p class="date">2025.01.06</p>
+                        </div>
+                    </li>
+                    <li class="qna6">
+                        <div class="state_rock_title">
+                            <p class="state complet">답변완료</p>
+                            <div class="rock_title">
+                                <p class="rock"><img src="./images/rock.png" alt=""></p>
+                                <a href="#"><p class="title">출고일이 어떻게 되나요?</p></a>
+                            </div>
+                        </div>
+                        <div class="id_date">
+                            <p class="id">2306*****</p>
+                            <p class="date">2025.01.06</p>
+                        </div>
+                    </li>
+                    <li class="qna7">
+                        <div class="state_rock_title">
+                            <p class="state complet">답변완료</p>
+                            <div class="rock_title">
+                                <p class="rock"><img src="./images/rock.png" alt=""></p>
+                                <a href="#"><p class="title">배송지를 변경하고 싶어요.</p></a>
+                            </div>
+                        </div>
+                        <div class="id_date">
+                            <p class="id">2306*****</p>
+                            <p class="date">2025.01.06</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="pagenation">
+                    <div class="pagenation_box">
+                        <button type="button" class="page_first"><img src="./images/btn_page_first.gif" alt=""></button>
+                        <button type="button" class="page_prev"><img src="./images/btn_page_prev.gif" alt=""></button>
+                        <a href="#" class="active">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#">7</a>
+                        <a href="#">8</a>
+                        <a href="#">9</a>
+                        <button type="button" class="page_next"><img src="./images/btn_page_next.gif" alt=""></button>
+                        <button type="button" class="page_last"><img src="./images/btn_page_last.gif" alt=""></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="ft_top">
+            <div class="container"> <!-- 컨텐츠너비 w1400 -->
+                <div class="topL">
+                    <a href="#">Brand Story</a>
+                    <a href="#">How to use</a>
+                    <a href="#">이용약관</a>
+                    <a href="#">개인정보처리방침</a>
+                </div>
+                <div class="topR">
+                    <div class="sns">
+                        <a href="#"><img src="./images/instagram.png" alt=""></a>
+                        <a href="#"><img src="./images/face_book.png" alt=""></a>
+                    </div>
+                    <a href="#" class="dongwon_group">Dongwon Group</a>
+                    <ul class="group_list">
+                        <li><a href="#">동원F&B</a></li>
+                        <li><a href="#">동원시스템즈</a></li>
+                        <li><a href="#">동원홈푸드</a></li>
+                        <li><a href="#">동원데어리푸드</a></li>
+                        <li><a href="#">동원팜스</a></li>
+                        <li><a href="#">동원와인플러스</a></li>
+                        <li><a href="#">동원몰</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="ft_btm">
+            <div class="container"><!-- 컨텐츠너비 w1400 -->
+                <div class="btmL">
+                    <h3 class="company">(주)동원에프앤비</h3>
+                    <div class="company_info">
+                        <span>대표이사:김성용</span>
+                        <span>본사:서울시 서초구 마방로 68 동원산업빌딩</span>
+                    </div>
+                    <p class="addr_row">개인정보보호 책임자:조영부 | 청소년보호 책임자:조영부</p>
+                    <p class="addr_row">사업자 등록번호 : 214-86-68729 <a href="#">사업자 정보 확인</a></p>
+                    <p class="addr_row">통신 판매업 신고 : 제2004-서울서초-02306호</p>
+                    <p class="addr_row">호스팅 사업자:동원사업(주)</p>
+                    <p class="copy">&copy;Copyright 2025 Dongwon F&B KOREA.All Rights Reserved.</p>
+                </div>
+                <div class="btmR">
+                    <div class="css_num">
+                        <div class="call">
+                            <span>고객센터</span>
+                            <strong>1877-3228</strong>
+                        </div>
+                        <ul>
+                            <li>AM 9:00 ~ PM 6:00</li>
+                            <li>PM 12:00 ~ 1:00 (Lunch Break)</li>
+                            <li>(SAT, SUN, HOLIDAY OFF)</li>
+                        </ul>
+                        <ul>
+                            <li>FAX : 02-589-4820</li>
+                            <li>E-MAIL : arrr@dongwon.com</li>
+                        </ul>
+                    </div>
+                    <div class="bank_isms">
+                        <div class="bank">
+                            <p class="bank_title">BANK INFO</p>
+                            <p class="bank_num">우리은행 966-001084-03-002</p>
+                            <p class="bank_name">예금주 : (주)동원에프엔비</p>
+                        </div>
+                        <div class="isms">
+                            <p><img src="./images/isms_logo.png" alt=""></p>
+                            <ul>
+                                <li>유효기간 : 2023.8.17~2026.8.16</li>
+                                <li>인증범위 : 온라인 쇼핑몰 동원몰, 더반찬&, 아르르 서비스 운영</li>
+                                <li>정보보호 관리 체계 인증 획득</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,72 @@
+main {padding-top:20px;}
+main .sub_wrap {}
+main .sub_wrap .container {max-width:1400px; margin:0 auto;}
+main .sub_wrap .container .category_name {text-align:center; padding:25px 0;}
+main .sub_wrap .container .category_name .category_title {font-size:1.5rem; font-weight:600; letter-spacing:-0.04em;}
+main .sub_wrap .container .category_btn {
+    margin-bottom:50px;
+    display:flex; flex-flow:row wrap; align-content:center; justify-content:center;
+}
+main .sub_wrap .container .category_btn li {
+    margin-right:15px; margin-top:15px;
+}
+main .sub_wrap .container .category_btn li a {
+    display:inline-block; color:#555;
+    font-size:0.93rem; letter-spacing:-0.02em; padding:10px 25px;
+    border:1px solid #aaa; border-radius:20px;
+}
+main .sub_wrap .container .category_btn li.active {}
+main .sub_wrap .container .category_btn li.active a {
+    background:#477a7b; color:#fff;
+    border-color:#477a7b;
+}
+main .sub_wrap .container .category_bnr {
+    width:100%; height:250px; border-radius:15px;
+    background-image:url(../images/sub_bnr.jpg);
+    background-position:center;
+    background-size:cover;
+}
+main .sub_wrap .container .path_sequence {overflow:hidden; margin:50px 0;}
+main .sub_wrap .container .path_sequence .path {float:left;}
+main .sub_wrap .container .path_sequence .path * {font-size:0.94rem; letter-spacing:-0.02em;}
+main .sub_wrap .container .path_sequence .path > a {margin-right:8px;}
+main .sub_wrap .container .path_sequence .path > a img {}
+main .sub_wrap .container .path_sequence .path span {}
+main .sub_wrap .container .path_sequence .path span a {}
+main .sub_wrap .container .path_sequence .path span.active {}
+main .sub_wrap .container .path_sequence .path span.active a {font-weight:500;}
+main .sub_wrap .container .path_sequence .sequence {float:right;}
+main .sub_wrap .container .path_sequence .sequence > * {display:inline-block; font-size:0.94rem; letter-spacing:-0.02em }
+main .sub_wrap .container .path_sequence .sequence span {padding-right:15px; border-right:1px solid #ddd;}
+main .sub_wrap .container .path_sequence .sequence #sequence {
+    padding:0 15px 0 5px; cursor:pointer;
+    background-image:url(../images/arrow_btm.png);
+    background-position:95% center;
+    background-repeat:no-repeat;
+}
+main .sub_wrap .container .path_sequence .sequence #sequence option {font-size:0.94rem; letter-spacing:-0.02em;}
+main .sub_wrap .container .product_list {display:flex; flex-flow:row wrap; justify-content:space-between;}
+main .sub_wrap .container .product_list li {display:none; width:calc((100% - (20px * 3)) / 4); margin-bottom:20px;}
+main .sub_wrap .container .product_list li a {display:block; position:relative; border-radius:8px; overflow:hidden;}
+main .sub_wrap .container .product_list li a img {height:100%;}
+main .sub_wrap .container .product_list li a .chip {
+    color:#fff; font-size:0.81rem; letter-spacing:-0.02em;
+    padding:6px 7px 4px; background:#ce2225; border-radius:3px;
+    position:absolute; top:13px; left:15px; z-index:100;
+}
+main .sub_wrap .container .product_list li .name {margin:15px 0 8px;}
+main .sub_wrap .container .product_list li .name a {font-weight:500; letter-spacing:-0.02em;}
+main .sub_wrap .container .product_list li .info {}
+main .sub_wrap .container .product_list li .info > * {display:inline-block;}
+main .sub_wrap .container .product_list li .info .discount {margin-right:3px; color:#ce2225; font-size:0.875rem; font-weight:500; letter-spacing:-0.02em;}
+main .sub_wrap .container .product_list li .info .price {margin-right:3px; font-weight:600; letter-spacing:-0.02em;}
+main .sub_wrap .container .product_list li .info .price em {font-size:0.875rem; font-weight:500;}
+main .sub_wrap .container .product_list li .info .original_price {}
+main .sub_wrap .container .product_list li .info .original_price del {font-size:0.75rem; letter-spacing:-0.02em; color:#aaa;}
+main .sub_wrap .container .more_product {margin:50px 0;}
+main .sub_wrap .container .more_product a {
+    text-align:center; padding:10px 0; display:block;
+    border:1px solid #ccc; border-radius:5px;
+}
+main .sub_wrap .container .more_product a img {position:relative; top:3px;}
+footer {margin-top:80px;}

@@ -1,0 +1,77 @@
+/* ================================header */
+header {padding:20px 0; background:#fff; width:100%; border-bottom:1px solid #ddd;}
+header .container {max-width:1400px; margin:0 auto; display:flex; justify-content:space-between; align-items:center;}
+header .container .h_left {}
+header .container .h_left h1 {display:inline-block;}
+header .container .h_left h1 a {display:inline-block;}
+header .container .h_left h1 a img {width:100%;}
+header .container .h_left nav {display:inline-block;}
+header .container .h_left nav ul {position:relative; bottom:16px;}
+header .container .h_left nav ul li {display:inline-block; margin-left:35px;}
+header .container .h_left nav ul li:hover a {color:#666;}
+header .container .h_left nav ul li a {font-size:1.125rem; letter-spacing:-0.02em;}
+header .container .h_right {}
+header .container .h_right a {display:inline-block; width:23px;}
+header .container .h_right a:nth-child(2) {margin:0 22px;}
+header .container .h_right a img {width:100%;}
+/* ================================footer */
+footer {background:#fafafa;}
+footer .ft_top {border:1px solid #ddd; border-left:0; border-right:0; padding:15px 0;}
+footer .ft_top .container {max-width:1400px; margin:0 auto; display:flex; justify-content:space-between; align-items:center;}
+footer .ft_top .container .topL {}
+footer .ft_top .container .topL a {display:inline-block; font-size:0.875rem; font-weight:500; letter-spacing:-0.02em;}
+footer .ft_top .container .topL a::after {width:1px; height:10px; background:#555; content:''; display:inline-block; margin:0 10px;}
+footer .ft_top .container .topL a:last-child::after {display:none;}
+footer .ft_top .container .topR {position:relative;}
+footer .ft_top .container .topR .sns {margin-right:25px; display:inline-block; position:relative; top:5px;}
+footer .ft_top .container .topR .sns a {display:inline-block;}
+footer .ft_top .container .topR .sns a:first-child {margin-right:12px;}
+footer .ft_top .container .topR .sns a img {width:100%;}
+footer .ft_top .container .topR .dongwon_group {
+    font-size:0.875rem; line-height:1.5; letter-spacing:-0.03em;
+    display:inline-block; padding:7px 10px; width:147px; border:1px solid #232323;
+    background-image:url(../images/arrow_btm.png);
+    background-position:95% center;
+    background-repeat:no-repeat;
+}
+footer .ft_top .container .topR .group_list {
+    display:none;
+    background:#fff; width:147px;
+    border:1px solid #232323; border-top:0;
+    position:absolute; top:37px; right:0; z-index:300;
+}
+footer .ft_top .container .topR .active {display:block;} /* 클릭시 토글 클래스 */
+footer .ft_top .container .topR .group_list li {padding:7px 10px;}
+footer .ft_top .container .topR .group_list li:hover {background:#ddd;}
+footer .ft_top .container .topR .group_list li a {font-size:0.94rem; line-height:1.5; letter-spacing:-0.03em;}
+footer .ft_btm {padding:50px 0;}
+footer .ft_btm .container {max-width:1400px; margin:0 auto; display:flex; justify-content:space-between;}
+footer .ft_btm .container .btmL {}
+footer .ft_btm .container .btmL .company {font-size:0.94rem; font-weight:500; letter-spacing:-0.02em;}
+footer .ft_btm .container .btmL .company_info {margin:7px 0 25px;}
+footer .ft_btm .container .btmL .company_info span {font-size:0.81rem; line-height:1.5; letter-spacing:-0.04em; color:#555;}
+footer .ft_btm .container .btmL p {font-size:0.81rem; line-height:1.5; letter-spacing:-0.04em; color:#555;}
+footer .ft_btm .container .btmL .addr_row {}
+footer .ft_btm .container .btmL .addr_row a {font-weight:600;}
+footer .ft_btm .container .btmL .copy {margin-top:13px;}
+footer .ft_btm .container .btmR {}
+footer .ft_btm .container .btmR .css_num {display:inline-block; margin-right:30px;}
+footer .ft_btm .container .btmR .css_num .call {}
+footer .ft_btm .container .btmR .css_num .call span {font-weight:600; letter-spacing:-0.02em;}
+footer .ft_btm .container .btmR .css_num .call strong {display:block; margin-top:7px; font-size:1.5rem; font-weight:600; letter-spacing:-0.04em;}
+footer .ft_btm .container .btmR .css_num ul {}
+footer .ft_btm .container .btmR .css_num ul:nth-of-type(1) {margin:15px 0;}
+footer .ft_btm .container .btmR .css_num ul li {font-size:0.875rem; line-height:1.5; letter-spacing:-0.03em;}
+footer .ft_btm .container .btmR .bank_isms {display:inline-block;}
+footer .ft_btm .container .btmR .bank_isms .bank {position:relative; bottom:62px;}
+footer .ft_btm .container .btmR .bank_isms .bank p {}
+footer .ft_btm .container .btmR .bank_isms .bank .bank_title {font-weight:600; letter-spacing:-0.02em; margin-bottom:7px;}
+footer .ft_btm .container .btmR .bank_isms .bank .bank_num,
+footer .ft_btm .container .btmR .bank_isms .bank .bank_name {font-size:0.875rem; line-height:1.5; letter-spacing:-0.03em;}
+footer .ft_btm .container .btmR .bank_isms .bank .bank_num {}
+footer .ft_btm .container .btmR .bank_isms .bank .bank_name {}
+footer .ft_btm .container .btmR .bank_isms .isms {padding:7px; border:1px solid #aaa;}
+footer .ft_btm .container .btmR .bank_isms .isms p {display:inline-block; margin-right:10px;}
+footer .ft_btm .container .btmR .bank_isms .isms p img {width:100%;}
+footer .ft_btm .container .btmR .bank_isms .isms ul {display:inline-block;}
+footer .ft_btm .container .btmR .bank_isms .isms ul li {font-size:0.69rem; line-height:1.5; letter-spacing:-0.04em;}
