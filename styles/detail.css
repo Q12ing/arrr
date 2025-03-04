@@ -54,7 +54,7 @@ main .product_wrap .container .product_box .product_contents .select_contents {}
 main .product_wrap .container .product_box .product_contents .select_contents #capacity {
     cursor:pointer;
     font-size:0.93rem; letter-spacing:-0.02em;
-    width:100%; padding:10px 12px; border:1px solid #232323; border-radius:3px;
+    width:100%; padding:12px 12px; border:1px solid #232323; border-radius:3px;
     background-image:url(../images/arrow_btm.png);
     background-repeat:no-repeat;
     background-position:98% center;
