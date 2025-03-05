@@ -1,6 +1,6 @@
 main {padding-top:20px;}
 main .product_wrap {margin-bottom:100px;}
-main .product_wrap .container {max-width:1400px; margin:0 auto;}
+main .product_wrap .container {max-width:1400px; min-width:1400px; margin:0 auto;}
 main .product_wrap .container .path_sequence {margin:20px 0 40px;}
 main .product_wrap .container .path_sequence .path {}
 main .product_wrap .container .path_sequence .path * {font-size:0.94rem; letter-spacing:-0.02em;}
@@ -147,7 +147,7 @@ main .page_tap {margin-bottom:80px; border-bottom:1px solid #ccc;}/* 상품페�
     z-index: 998;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
-main .page_tap .page_tapbar {max-width:1400px; margin:0 auto; display:flex; position:relative;}
+main .page_tap .page_tapbar {max-width:1400px; min-width:1400px; margin:0 auto; display:flex; position:relative;}
 main .page_tap .page_tapbar li {
     width:calc(100% / 4); text-align:center;
 }
@@ -171,11 +171,11 @@ main .page_tap .page_tapbar .page_buy {}
 main .page_tap .page_tapbar .page_qna {}
 /* =========================================================================================================================================*/
 main .page_wrap {}/* 전체너비 */
-main .page_wrap .img_container {max-width:1400px; margin-bottom:70px;}/* 탭별 컨텐츠너비 */
+main .page_wrap .img_container {max-width:1400px; min-width:1400px; margin-bottom:70px;}/* 탭별 컨텐츠너비 */
 main .page_wrap .img_container .img_page .img_wrap {max-width:1100px; text-align:center; width:1100px; margin:0 auto; margin-top:100px;}
 main .page_wrap .img_container .img_page .img_wrap img {}
 /* ==================================================리뷰페이지 */
-main .page_wrap .review_container {max-width:1100px;}
+main .page_wrap .review_container {max-width:1100px; min-width:1400px;}
 main .page_wrap .review_container .score_box {margin-bottom:70px;}
 main .page_wrap .review_container .score_box .page_title {}
 main .page_wrap .review_container .score_box .page_title .title_main {}
@@ -272,13 +272,13 @@ main .page_wrap .review_container .entire_review_box .pagenation .pagenation_box
 main .page_wrap .review_container .entire_review_box .pagenation .pagenation_box a {}
 main .page_wrap .review_container .entire_review_box .pagenation .pagenation_box .active {}
 /* ==================================================구매안내 */
-main .page_wrap .buy_container {max-width:1100px;} 
+main .page_wrap .buy_container {max-width:1100px; min-width:1100px;} 
 main .page_wrap .buy_container .page_title {border-bottom:none;} 
 main .page_wrap .buy_container .page_title .title_main {} 
 main .page_wrap .buy_container .img_wrap {margin-bottom:70px;} 
 main .page_wrap .buy_container .img_wrap img {} 
 /* ==================================================Qna */
-main .page_wrap .qna_container {max-width:1100px; padding-bottom:80px;}
+main .page_wrap .qna_container {max-width:1100px; min-width:1100px; padding-bottom:80px;}
 main .page_wrap .qna_container .page_title {margin-bottom:0;}
 main .page_wrap .qna_container .page_title .title_main {position:relative; top:14px;}
 main .page_wrap .qna_container .page_title .title_main em {}

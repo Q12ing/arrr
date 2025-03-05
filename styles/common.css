@@ -1,6 +1,6 @@
 /* ================================header */
 header {padding:20px 0; background:#fff; width:100%; border-bottom:1px solid #ddd;}
-header .container {max-width:1400px; margin:0 auto; display:flex; justify-content:space-between; align-items:center;}
+header .container {max-width:1400px; min-width:1400px; margin:0 auto; display:flex; justify-content:space-between; align-items:center;}
 header .container .h_left {}
 header .container .h_left h1 {display:inline-block;}
 header .container .h_left h1 a {display:inline-block;}
@@ -17,7 +17,7 @@ header .container .h_right a img {width:100%;}
 /* ================================footer */
 footer {background:#fafafa;}
 footer .ft_top {border:1px solid #ddd; border-left:0; border-right:0; padding:15px 0;}
-footer .ft_top .container {max-width:1400px; margin:0 auto; display:flex; justify-content:space-between; align-items:center;}
+footer .ft_top .container {max-width:1400px; min-width:1400px; margin:0 auto; display:flex; justify-content:space-between; align-items:center;}
 footer .ft_top .container .topL {}
 footer .ft_top .container .topL a {display:inline-block; font-size:0.875rem; font-weight:500; letter-spacing:-0.02em;}
 footer .ft_top .container .topL a::after {width:1px; height:10px; background:#555; content:''; display:inline-block; margin:0 10px;}
